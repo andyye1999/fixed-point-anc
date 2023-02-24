@@ -86,6 +86,7 @@ void ANC_run(ANC_STRUCT* st, short* send_in, short* ref_in, short* send_out)
 	{
 		ref_dat_buf[i] = ref_real_fft[i];
 	}
+	// VAD function choose step i have not make it 
 	alpha = 163;
 	Word16 onesubalpha = 32604;
 	
